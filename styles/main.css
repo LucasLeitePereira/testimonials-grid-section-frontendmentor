@@ -1,5 +1,4 @@
-main {
-    width: 100%;
+body {
     background: var(--Grey100);
 }
 
@@ -10,9 +9,87 @@ section {
     padding: 3rem 2rem;
 }
 
-img {
+picture img {
     width: 32px;
     height: 32px;
 
     border-radius: 50%;
+}
+@media (min-width: 768px) and (max-width: 1438px) {
+    section {
+        padding: 10%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+            "branco-lateral branco-lateral"
+            "cinza  azul"
+            "roxo azul"
+            "roxo branco";
+        align-content: center;
+        justify-content: center;
+    }
+    .roxo {
+        grid-area: roxo;
+    }
+
+    .cinza {
+        grid-area: cinza;
+    }
+
+    #jeanette {
+        grid-area: branco;
+    }
+
+    #kira {
+        grid-area: branco-lateral;
+    }
+
+    .azul {
+        grid-area: azul;
+    }
+
+}
+
+@media (min-width: 1439px) {
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    section {
+        padding: 10%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+            "roxo roxo cinza branco-lateral"
+            "branco azul azul branco-lateral";
+
+        align-content: center;
+        justify-content: center;
+    }
+
+    .roxo {
+        grid-area: roxo;
+    }
+
+    .cinza {
+        grid-area: cinza;
+    }
+
+    #jeanette {
+        grid-area: branco;
+    }
+
+    #kira {
+        grid-area: branco-lateral;
+    }
+
+    .azul {
+        grid-area: azul;
+    }
 }
