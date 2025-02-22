@@ -1,0 +1,17 @@
+.info-perfil h1 {
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.info-perfil p {
+    font-size: 0.8em;
+}
+
+.cinza .info-perfil p {
+    color: var(--Grey200);
+}
+
+.comentario h1 {
+    font-weight: 600;
+}

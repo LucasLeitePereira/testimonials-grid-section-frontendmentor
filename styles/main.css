@@ -1,0 +1,18 @@
+main {
+    width: 100%;
+    background: var(--Grey100);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 2rem;
+}
+
+img {
+    width: 32px;
+    height: 32px;
+
+    border-radius: 50%;
+}

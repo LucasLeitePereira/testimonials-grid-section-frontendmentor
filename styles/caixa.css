@@ -1,0 +1,25 @@
+.caixa {
+    border-radius: 10px;
+    padding: 2rem;
+
+    font-size: 13px;
+    color: var(--White);
+}
+
+.roxo {
+    background-color: var(--Purple500);
+}
+
+.cinza {
+    background-color: var(--Grey500);
+}
+
+.branco {
+    background-color: var(--White);
+    color: var(--Grey500);
+}
+
+.azul {
+    background-color: var(--Darkblue);
+    color: var(--Grey200);
+}
